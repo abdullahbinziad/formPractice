@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+
+}
+section{
+    margin: 0 auto;
+    display: flex;
+
+
+ 
+ 
+}
+.leftSide{
+    width: 35%;
+    background-color: #54389e;
+    color: white;
+    height: 100vh;   
+}
+.leftContent{
+    padding: 40px;
+}
+.contactInfo{
+    margin-top: 30px ;
+}
+.iconTitle{
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 10px;
+}
+.cardHeadIcon{
+   margin-right: 20px;
+   
+}
+.contactCard{
+    margin-top: 30px;
+}
+.social{
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  
+}
+.social-icon{
+   
+    padding: 10px;
+}
+.rightSide{
+     margin: 0 auto;
+    margin-top: 40px;}
+  
+.myform{
+   margin-top: 30px;
+   padding: 10px;
+}
+input,textarea{
+  width: 400px;
+  padding: 15px 7px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px solid gray;
+  font-size: 14px;
+  
+}
+#submitBTN{
+    background-color:#54389e;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+}
